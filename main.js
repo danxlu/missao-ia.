@@ -4,17 +4,12 @@ const caixaAlternativas = document.querySelector(".caixalternativas");
 const caixaResultado = document.querySelector(".caixa-resultado");
 const caixaTexto = document.querySelector(".texto-resultado");
 
-let Pergunta = "Qual é o seu nome ?";
-
-let Perguntas = [ "qual é o seu nome", "qual sua idade", "qual sua altura"];
-
-let PerguntaseRespostas = [
+const perguntas = [
     {
-        enunciado: "Qual é o seu nome ?"
-        alternativas: ["alternativa1","alternativa2","alternativa3"]
+        enunciado: "Pergunta 1",
+        alternativas: ["aternativa1","alternativa2","alternativa3"]
     }
-
-
-
-
-]
+    {
+        enunciado: "Pergunta 2",
+        alternativas: ["aternativa1","alternativa2","alternativa3"]
+    }
