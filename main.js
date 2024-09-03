@@ -22,3 +22,19 @@ const perguntas = [
         alternativas: ["aternativa1","alternativa2","alternativa3"]
     },
 ];
+
+
+
+
+let atual = 0;
+
+let perguntaAtual;
+
+function mostraPergunta(){
+ perguntaAtual = perguntas[atual];
+
+caixaPergunta.textContent = perguntaAtual.enunciado;
+
+}
+
+mostraPergunta();
