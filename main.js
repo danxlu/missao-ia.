@@ -6,8 +6,8 @@ const caixaTexto = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Pergunta 1",
-        alternativas: ["aternativa1","alternativa2","alternativa3"]
+        enunciado: "Pergunta 1 qual arte marcial a mais forte?",
+        alternativas: ["muay thai","jiu-jitsu","karate"]
     },
     {
         enunciado: "Pergunta 2",
